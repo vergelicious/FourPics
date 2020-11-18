@@ -6,33 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="63dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="36dp"
-        android:src="@drawable/avatar_1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        tools:src="@tools:sample/avatars"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="63dp"
-        android:layout_height="61dp"
-        android:layout_marginTop="36dp"
-        android:src="@drawable/avatar_2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton"
-        app:layout_constraintStart_toEndOf="@+id/imageButton5"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.0"
-        tools:src="@tools:sample/avatars"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <TextView
         android:id="@+id/NameTextView"
         android:layout_width="wrap_content"
@@ -70,19 +43,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="63dp"
-        android:layout_height="61dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
-        android:src="@drawable/avatar_3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        tools:src="@tools:sample/avatars[1]"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <Button
         android:id="@+id/loginBtn"
         android:layout_width="wrap_content"
@@ -112,6 +72,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signUpBtn" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/google"
+        tools:srcCompat="@drawable/google" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="66dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/facebook"
+        tools:srcCompat="@drawable/facebook" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
